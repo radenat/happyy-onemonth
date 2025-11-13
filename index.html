@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sorry Bangg</title>
+    <title>Halaman Web</title>
     <style>
         /* Font imports */
         @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Bubblegum+Sans&family=Poppins:wght@300;400;500;600&display=swap');
@@ -32,30 +33,6 @@
             background-repeat: repeat;
         }
         
-        /* Lace border */
-        body::before {
-            content: "";
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 20px;
-            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 12" width="24" height="12"><path d="M0,0 Q6,0 12,12 Q18,0 24,0 Z" fill="%236e5b5b" /></svg>') repeat-x;
-            background-size: 24px 12px;
-        }
-        
-        body::after {
-            content: "";
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            height: 20px;
-            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 12" width="24" height="12"><path d="M0,12 Q6,12 12,0 Q18,12 24,12 Z" fill="%236e5b5b" /></svg>') repeat-x;
-            background-size: 24px 12px;
-            color: #6e5b5b;
-        }
-        
         /* Page container */
         .page {
             width: 100%;
@@ -75,15 +52,15 @@
         }
         
         .container {
-            background-color: rgba(88, 50, 50, 0.9);
+            background-color: rgba(255, 255, 255, 0.9);
             border-radius: 20px;
             padding: 25px 20px;
-            box-shadow: 0 10px 30px rgba(71, 44, 48, 0.3);
+            box-shadow: 0 10px 30px rgba(255, 182, 193, 0.3);
             position: relative;
             width: 90%;
             max-width: 500px;
             margin: 0 auto;
-            border: 2px solid #301a1d;
+            border: 2px solid #ffb6c1;
         }
         
         /* Make envelope page container wider */
@@ -106,7 +83,7 @@
             left: -5px;
             right: -5px;
             bottom: -5px;
-            border: 2px dashed #523a3e;
+            border: 2px dashed #ffb6c1;
             border-radius: 24px;
             pointer-events: none;
         }
@@ -114,15 +91,15 @@
         /* Typography */
         h1 {
             font-family: 'Paytone One', sans-serif;
-            color: #ffffff;
+            color: #ff85a2;
             margin-bottom: 0.5em;
             font-size: 2.5rem;
-            text-shadow: 3px 3px 0 #6e5b5b, 5px 5px 0 rgba(255, 133, 162, 0.3);
+            text-shadow: 3px 3px 0 #fff, 5px 5px 0 rgba(255, 133, 162, 0.3);
         }
         
         h2 {
             font-family: 'Bubblegum Sans', cursive;
-            color: #ffffff;
+            color: #ff85a2;
             margin-bottom: 0.5em;
             font-size: 1.8rem;
             max-width: 100%;
@@ -161,7 +138,7 @@
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            border: 3px solid #2f2727;
+            border: 3px solid #ffb6c1;
             font-size: 0;
             line-height: 0;
         }
@@ -215,7 +192,7 @@
         
         /* Buttons */
         .btn {
-            background-color: #31282a;
+            background-color: #ffb6c1;
             color: white;
             border: none;
             padding: 10px 25px;
@@ -227,7 +204,7 @@
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(69, 52, 55, 0.4);
+            box-shadow: 0 5px 15px rgba(255, 182, 193, 0.4);
             font-family: 'Bubblegum Sans', cursive;
             white-space: nowrap;
         }
@@ -265,7 +242,7 @@
         }
         
         .btn-green {
-            background-color: #8f584a;
+            background-color: #77e0cb;
         }
         
         /* Message text styling */
@@ -276,7 +253,6 @@
             margin-bottom: 15px;
             text-align: left;
             line-height: 1.6;
-            color :#fff5f7
         }
         
         /* Animation classes */
@@ -317,7 +293,7 @@
             right: 30px;
             width: 50px;
             height: 50px;
-            background-color: #4b3135;
+            background-color: #ffb6c1;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -367,7 +343,7 @@
             max-height: 90vh;
             overflow-y: auto;
             position: relative;
-            border: 3px solid #362628;
+            border: 3px solid #ffb6c1;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
         }
         
@@ -379,7 +355,7 @@
             border: none;
             font-size: 1.5rem;
             cursor: pointer;
-            color: #362628;
+            color: #ff85a2;
         }
         
         /* Heart decorations */
@@ -420,8 +396,8 @@
         
         /* Special styling for message page */
         .message-background {
-            background-color: rgba(70, 51, 51, 0.8);
-            border: 5px solid #ffffff;
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 5px solid #ffb6c1;
             border-radius: 15px;
             padding: 20px;
             position: relative;
@@ -444,8 +420,8 @@
             display: block;
             margin-bottom: 20px;
             font-size: 2.2rem;
-            color: #ffffff;
-            text-shadow: 2px 2px 0 #7d6d6d;
+            color: #ff85a2;
+            text-shadow: 2px 2px 0 #fff;
             white-space: nowrap;
         }
         
@@ -453,7 +429,7 @@
             text-align: center;
             margin-top: 15px;
             font-size: 1.5rem;
-            color: #ffffff;
+            color: #ff85a2;
             white-space: nowrap;
         }
         
@@ -478,10 +454,10 @@
     <div class="page active" id="page1">
         <div class="container">
             <div class="image-container">
-                <img src="happybunny.jpeg" alt="Cute Sanrio Characters">
+                <img src="1-pict.jpg" alt="Cute Sanrio Characters">
             </div>
-            <h1>Happy one year and two months!</h1>
-            <h2 class="my-baby">mi amor!</h2>
+            <h1>Halowww Nopenn!</h1>
+            <p>Click the next button!!</p>
             <button class="btn" id="nextBtn1">Next!!</button>
         </div>
     </div>
@@ -506,25 +482,21 @@
             <div class="image-container">
                 <img src="bunnycrying.jpeg" alt="Cute Character Crying">
             </div>
-            <p class="sad-text" style="white-space: normal;        /* izinkan wrap */
-  overflow-wrap: anywhere;    /* pecah kata panjang bila perlu */
-  word-break: break-word; ">Selamat anda melihat windah mewing, coba lagi yang bener gaa!</p>
-            <button class="btn" id="againBtn">Buka lagi mehh</button>
+            <p class="sad-text" style="white-space: nowrap;">Awh... Let's try again, Please..? ＞︿＜</p>
+            <button class="btn" id="againBtn">Again..?</button>
         </div>
     </div>
     
     <!-- Page 4: Message -->
     <div class="page" id="page4">
         <div class="container">
-            <h2 style="white-space: normal; word-break: break-word; text-align: center;">Ooo.. A message !!<br>♥♥</h2>
+            <h2 style="white-space: normal; word-break: break-word; text-align: center;">Ooo.. A message !!</h2>
             <div class="message-background">
-                <h2 style="white-space: normal; word-break: break-word; text-align: center;">Hola mi amor<br>(^○^)</h2>
+                <h2 style="white-space: normal; word-break: break-word; text-align: center;">Happy birthday yaaa "Novendra Fajar Aroffa" 💌<br>(^○^)</h2>
                 <div class="message-text">
-                    Eres la persona más increíble que trae tanta alegría, amor y luz a mi vida. Me siento muy afortunado/a de llamarte mío/a. Me has mostrado lo que se siente el amor verdadero, y cada día contigo es una hermosa aventura.
+                    selamat ulang tahunn seseorang yang pernah menjadi "favorit" aku dulu, semoga hal hal baik selalu ada dalam kehidupan kamu yaa, aku ga lupa kok sama tanggal ulang tahun kamu, bahkan aku tungguin hehe happy birthday yaa, maaf aku engga bisa nepatin janji aku duluu, aku tau kisah kita udah selesai, tapi aku masih boleh ucapin kamu kan? the once again happy birthday.
                     <br><br>
-                    Amo todo de ti: tu sonrisa, tu risa, tu fuerza, tu amabilidad. Me haces sentir seguro/a, apoyado/a y profundamente amado/a. Estoy muy orgulloso/a de la persona que eres y en la que te estás convirtiendo.
-                    <br><br>
-                    Solo quiero darte las gracias. Gracias por ser tú y por estar en mi vida. ¡Te amo más de lo que las palabras pueden expresar!
+                    bahagia terus ya kamuuu semoga segala impian kamu bisa terwujud, semoga harapan kecil maupun harapan besarnya kebahagiaan kamu bisa jadi nyata. kamu kerenn udah bisa sampe ke titik yang sejauh inii maaf yaa.. aku belum bisa jadii seseorang yang bisa bikin kamu senengg teruss pas kita masih sama samaa. tapi aku harap kamu jauh lebih nyaman dengan kehidupan kamu yang sekarang, stay safe, healthy, and happy, okay if ever you need somebody, aku bakal selalu ada disini. aku ga akann kemana mana, seperti biasanya setiap manusia bertambah usia dan beranjak dewasa dan aku mau doa yang terbaik meski mungkin versi terbaik dalam kamus kamu itu beda, ada banyak semoga yang harus kamu aminkan, tapi yang pasti the best for u. aku harap di umur kamu yang sekarang kamu bisa nentuin arah hidup kamu mau kemana, dan kurangin rokoknyaa yaa..
                 </div>
             </div>
             <button class="btn" id="restartBtn">Start Over ♥</button>
@@ -537,7 +509,7 @@
     </div>
     
     <audio id="bgMusic" loop preload="auto" volume="0.7">
-        <source src="fallen star.mp3" type="audio/mp3">
+        <source src="song.mp3" type="audio/mp3">
     </audio>
     
     <script>
